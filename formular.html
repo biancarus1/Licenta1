@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="css/style1.css" type="text/css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <ul>
+  <li><a href="index.php" class="btnn"> Inapoi la pagina principala  <span class="fas fa-chevron-right"></span> </a></li>
+  <li><a href="logout.php"class="btnn" > Delogare </a></li>
+  </ul>
+  </nav>
+  <h1>Finalizeaza completarea profilului</h1>
+  </header>
+  <div class="image">
+    <img src="image/book-img.svg" alt="">
+  </div>
+  <div class="form-style-5">
+    <form method="POST" action="formular.php">
+    <fieldset>
+    <legend><span class="number">1</span> Completare date pacient</legend>
+    <input type="text" name="Nume" placeholder="Nume">
+    <input type="text" name="Prenume" placeholder="Prenume">
+    <input type="date" name="Data_nasterii"placeholder="Data nasterii">
+    <input type="number" name="Varsta" placeholder="Varsta dvs">
+    <label for="Sex">Sex:</label>
+    <select id="Sex" name="Sex">
+      <option value="Feminin">Feminin</option>
+      <option value="Masculin">Masculin</option>
+    </select>      
+    <input type="number" name="Telefon" placeholder="Telefon">
+    </fieldset>
+    <button type="submit" name="submit" class="submit-button" >Trimite! </button> 
+
+    </form>
+    </div>
+</body>
+</html>
